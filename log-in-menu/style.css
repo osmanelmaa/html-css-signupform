@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#131034 ;
+}
+.sign-up-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(panorama-3725657_1280.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 6px;
+}
+.sign-up-form h1{
+    margin-top: 100px;
+    font-size: 40px;
+}
+.sign-up-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+} 
+
+.txt{
+    margin: 20px 0;
+    border-radius: 6px;
+}.signup-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background:#538fef ;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+.sign-up-form a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.signup-btn:hover{
+    transform: scale(0.96);
+    background: #fff;
+    color: #538fef;
+    
+}
